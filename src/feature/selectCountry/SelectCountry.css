@@ -1,0 +1,19 @@
+ul, li {
+  list-style: none;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+li {
+  padding: 1em;
+  border-radius: 1em;
+  background-color: lightgray;
+}
+
+.clicked {
+  color: white;
+  background-color: black;
+}
